@@ -12,6 +12,18 @@ body {
   line-height: 1.6;
 }
 
+/* ===== Profile Section ===== */
+.profile-avatar {
+  width: 150px;
+  border-radius: 50%;
+  transition: transform 0.2s ease;
+}
+
+.profile-avatar:hover {
+  transform: scale(1.05);
+}
+
+
 /* ===== Hero Section ===== */
 .hero {
   text-align: center;
