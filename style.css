@@ -1,1 +1,133 @@
+/* ===== Global Styles ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f0f14;
+  color: #e4e4e7;
+  line-height: 1.6;
+}
+
+/* ===== Hero Section ===== */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(145deg, #111827, #0f172a);
+  border-bottom: 1px solid #1f2937;
+}
+
+.hero img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #3b82f6;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  color: #9ca3af;
+  margin-bottom: 20px;
+}
+
+/* ===== Social Links ===== */
+.socials a {
+  display: inline-block;
+  margin: 0 12px;
+  padding: 8px 16px;
+  border: 1px solid #3b82f6;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #3b82f6;
+  transition: all 0.3s ease;
+}
+
+.socials a:hover {
+  background-color: #3b82f6;
+  color: #0f0f14;
+}
+
+/* ===== Sections ===== */
+section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  border-left: 4px solid #3b82f6;
+  padding-left: 10px;
+}
+
+/* ===== Projects ===== */
+.project-card {
+  background-color: #1a1a23;
+  border: 1px solid #27272a;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 25px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(59, 130, 246, 0.2);
+}
+
+.project-card h3 {
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  color: #a1a1aa;
+  margin-bottom: 10px;
+}
+
+.project-card a {
+  color: #3b82f6;
+  text-decoration: none;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #111827;
+  border-top: 1px solid #1f2937;
+  color: #9ca3af;
+}
+
+footer a {
+  color: #3b82f6;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  section {
+    padding: 40px 15px;
+  }
+}
